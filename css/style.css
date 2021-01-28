@@ -16,20 +16,27 @@ p {float:left;
   padding-bottom:2px;} 
 
 .container
-{width:100%}
+{width:100%;
+position:relative;}
 
 .row {width:100%; 
-  position: relative;
-      float:left;}
+  margin:10px;
+  position: relative;}
 
 .box {border:1px solid black;
       float:left;
       padding-bottom:15px;
-      margin:15px;
+      margin-left:10px;
+      margin-right:10px;
+      margin-top:10px;
+      margin-bottom:20px;
       background-color:#ffccc9;}
 
 .meat {float:right;
-      border: 1px solid black;
+      width:150px;
+      text-align:center;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
       font-size:1.25em;}
 
 #meat1 {background-color:#ffd87a;
