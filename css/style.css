@@ -7,6 +7,7 @@
 
 h1 {font-size:1.75em;
     text-align:center;
+    padding-top:15px;
     padding-bottom:20px;}
 
 p {float:left;
@@ -24,10 +25,10 @@ position:relative;}
 
 .box {border:1px solid black;
       float:left;
-      padding-bottom:15px;
+      padding-bottom:10px;
       margin-left:10px;
       margin-right:10px;
-      margin-top:10px;
+      margin-top:0px;
       margin-bottom:20px;
       background-color:#ffccc9;}
 
